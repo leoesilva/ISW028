@@ -1,0 +1,57 @@
+/*     Estilos do container    */
+
+div.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/*      Estilos do cabeçalho   */
+
+.containter-header h1 {
+    float: left;
+}
+
+/*      Estilos do menu        */
+
+menu {
+    list-style-type: none;
+}
+
+menu li {
+    display: inline;
+}
+
+menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+menu li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*     Estilos da sidebar       */
+
+.content aside {
+    width: 230px;
+    height: 100%;
+    float: left;
+    background-color: darkgrey;
+}
+
+/*     Estilos do conteúdo      */
+
+.content article {
+    width: 1040px;
+    height: auto;
+    float: right;
+    background-color: darkgray;
+}
+
+/*      Estilos do rodapé       */
+
+.container-footer {
+    clear: both;
+    text-align: center;
+}
