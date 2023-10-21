@@ -1,13 +1,29 @@
+html {
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1C1D1E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #08090A;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
 /*     Estilos do container    */
 
 div.container {
-    width: 1280px;
+    width: 95vw;
+    height: 95vh;
     margin: 0 auto;
 }
 
 /*      Estilos do cabeçalho   */
 
-.containter-header h1 {
+header.containter-header h1 {
     float: left;
 }
 
@@ -23,7 +39,7 @@ menu li {
 
 menu li a {
     text-decoration: none;
-    color: #000;
+    color: #08090A;
 }
 
 menu li a:hover {
@@ -33,25 +49,28 @@ menu li a:hover {
 
 /*     Estilos da sidebar       */
 
-.content aside {
-    width: 230px;
+main.content aside {
+    width: 29%;
     height: 100%;
     float: left;
-    background-color: darkgrey;
+}
+
+main.content aside span {
+    font-size: 0.9em;
 }
 
 /*     Estilos do conteúdo      */
 
-.content article {
-    width: 1040px;
+main.content article {
+    width: 67%;
     height: auto;
     float: right;
-    background-color: darkgray;
 }
 
 /*      Estilos do rodapé       */
 
-.container-footer {
+footer.container-footer {
     clear: both;
+    padding-top: 15px;
     text-align: center;
 }
