@@ -16,8 +16,7 @@ body {
 /*     Estilos do container    */
 
 div.container {
-    width: 95vw;
-    height: 95vh;
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -50,19 +49,24 @@ menu li a:hover {
 /*     Estilos da sidebar       */
 
 main.content aside {
-    width: 29%;
+    width: 230px;
     height: 100%;
     float: left;
 }
 
+main.content aside .searchbar {
+    padding: 5px;
+}
+
 main.content aside span {
-    font-size: 0.9em;
+    padding: 5px;
+    font-size: 0.8rem;
 }
 
 /*     Estilos do conteúdo      */
 
 main.content article {
-    width: 67%;
+    width: 1125px;
     height: auto;
     float: right;
 }
